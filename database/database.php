@@ -5,10 +5,10 @@
 	$password = "";
 	$database = "dbmiacarpark";
 	*/
-	$host = "us-cdbr-iron-east-02.cleardb.net";
-	$database = "heroku_a26af63ef5ce9d3";
-	$user = "b459e6bfc271b1";
-	$password = "3ea494f1";
+	$host = "myphpapp-mysqldbserver.mysql.database.azure.com";
+	$database = "dbFinalExam";
+	$user = "yye2942@myphpapp-mysqldbserver";
+	$password = "skatkwkd309^^@myphpapp-mysqldbserver";
 
 	$connection = mysqli_connect($host, $user, $password, $database);
 ?>
